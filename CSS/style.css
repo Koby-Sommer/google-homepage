@@ -1,0 +1,89 @@
+       
+        * {
+            font-family: Roboto,arial,sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+        a {
+            margin: 4px;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #profile-pic {
+            border-radius: 50%;
+            max-width: 30px;
+        }
+        nav {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 100%;
+        }
+        .header-nav {
+            display: flex;
+            align-items: center;
+            padding-left: 0;
+            margin-right: 8px;
+        }
+        ul > a, ul > img {
+            padding: 0 5px;
+        }
+        .header-img:hover {
+            box-shadow: 0 0 10px 0 gray;
+            border-radius: 50%;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5vh;
+        }
+        .logo {
+            padding: 30px;
+        }
+        .input-receiver {
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+            height: 45px;
+            border: 3px solid gray;
+            border-radius: 25px;
+        }
+        .input-receiver > input {
+            flex-grow: 1;
+            border: none;
+            outline: none;
+        }
+        .input-receiver:hover {
+            box-shadow: 0 0 8px 0 gray;
+        }
+        img:hover {
+            cursor: pointer;
+        }
+        .button {
+            padding-top: 45px;
+        }
+        button {
+            background-color: light;
+            border-radius: 3px;
+            border: none;
+            height: 30px;
+            padding: 5px 10px;
+            margin: 5px 10px;
+        }
+        button:hover {
+            box-shadow: 0 0 15px 0 gray;
+        }
+        footer {
+            background-color: lightgray;
+            position: fixed;
+            bottom: 0;
+            width: 100vw;
+            padding: 10px;
+        }

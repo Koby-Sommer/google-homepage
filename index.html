@@ -1,48 +1,62 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<head>
-
-</head>
-
 <html>
-    <style>
-                
-        nav {
-                    list-style-type: none;
-                    margin: 0;
-                    padding: 0;
-
-                }
-        #search-button {
-                    position: relative; 
-                    background-color:aquamarine;
-                }
-        li {
-            display: inline;
-            flex-direction: row;
-
-            }
-
-    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Google Web Page Project</title>
+    </head>
+<body>
     <header>
-
-    
-    <nav>
-        <div>
-            <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#store">Store</a></li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-            <li><a href="#gmail">Gmail</a></li>
-            <li><a href="#images">Images</a></li>
-            </ul>
-        </div>
-    </nav>
+        <nav>
+            <div class="header-nav">
+                <ul>
+                <a href="#about">About</a>
+                <a href="#store">Store</a>
+                </ul>
+            </div>
+            <div class="header-nav">
+                <ul>
+                <a href="#gmail">Gmail</a>
+                <a href="#images">Images</a>
+                <a href="#"></a><img class="header-img" src="Images/bars.png" alt="google-apps"></a>
+                <a href="#"><img class="header-img" id="profile-pic" src="https://lh3.googleusercontent.com/ogw/ADea4I6yDh132iwnJxidVqUBZ1vRcud3XFc46rPGKayH=s64-c-mo" alt="profile-pic"></a>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google homepage logo">
-    <button id="search-button">Search</button>
+    <section>
+        <img src="Images/google.png" alt="google homepage logo" class="logo">
+        <div class="input-receiver">
+            <img src="Images/search.png" alt="mag-glass">
+            <input type="text">
+            <img src="Images/mic.png">
+        </div>
+        <div class="button">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div>
+                <ul>
+                    <a href="#advertising">Advertising</a>
+                    <a href="#business">Business</a>
+                    <a href="#how-search-works">How Search Works</a>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#terms">Terms</a>
+                    <a href="#settings">Settings</a>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+
+</body>
 </html>
