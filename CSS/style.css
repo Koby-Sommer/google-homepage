@@ -6,30 +6,29 @@
             font-size: 1em;
         }
         a {
-            margin: 4px;
+            margin: 3px;
             text-decoration: none;
             color: black;
         }
         a:hover {
             text-decoration: underline;
         }
-        #profile-pic {
-            border-radius: 50%;
-            max-width: 30px;
-        }
+        
         nav {
             position: relative;
             width: 100%;
             display: flex;
-            justify-content: space-between;
             align-items: center;
+            justify-content: space-between;
             min-height: 100%;
         }
         .header-nav {
-            display: flex;
-            align-items: center;
             padding-left: 0;
-            margin-right: 8px;
+            margin-right: 10px;
+        }
+        #profile-pic {
+            border-radius: 50%;
+            max-width: 30px;
         }
         ul > a, ul > img {
             padding: 0 5px;
@@ -45,15 +44,21 @@
             margin-top: 5vh;
         }
         .logo {
-            padding: 30px;
+            padding: 50px;
         }
         .input-receiver {
             display: flex;
             justify-content: space-between;
             width: 500px;
             height: 45px;
-            border: 3px solid gray;
+            border: 1px solid lightgray;
             border-radius: 25px;
+        }
+        .input-receiver > img {
+            align-self: center;
+            width: auto;
+            height: auto;
+            padding: 11px 15px;
         }
         .input-receiver > input {
             flex-grow: 1;
@@ -61,7 +66,7 @@
             outline: none;
         }
         .input-receiver:hover {
-            box-shadow: 0 0 8px 0 gray;
+            box-shadow: 0 0 1px 0 gray;
         }
         img:hover {
             cursor: pointer;
@@ -70,7 +75,7 @@
             padding-top: 45px;
         }
         button {
-            background-color: light;
+            background-color: rgb(247, 247, 247);
             border-radius: 3px;
             border: none;
             height: 30px;
@@ -78,10 +83,10 @@
             margin: 5px 10px;
         }
         button:hover {
-            box-shadow: 0 0 15px 0 gray;
+            box-shadow: 0 0 2px 0 gray;
         }
         footer {
-            background-color: lightgray;
+            background-color: rgb(235, 235, 235);
             position: fixed;
             bottom: 0;
             width: 100vw;
