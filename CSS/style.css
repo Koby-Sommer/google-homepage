@@ -41,10 +41,10 @@
         ul > a, ul > img {
             padding: 0 5px;
         }
-        .header-img:hover {
+        .header-images:hover {
             box-shadow: 0 0 10px gray;
         }
-        section {
+        form {
             display: flex;
             flex-direction: column;
             align-items: center;
