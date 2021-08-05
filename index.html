@@ -3,60 +3,64 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="Images/google-tab.svg">
         <link rel="stylesheet" href="CSS/style.css">
         <title>Google Web Page Project</title>
     </head>
-<body>
-    <header>
-        <nav>
-            <div class="header-nav-left">
-                <ul>
-                <a href="#">About</a>
-                <a href="#">Store</a>
-                </ul>
+    <body>
+        <header>
+            <nav>
+                <div class="header-nav-left">
+                    <a href="#">About</a>
+                    <a href="#">Store</a>
+                </div>
+                <div class="header-nav-right">
+                    <a href="#">Gmail</a>
+                    <a href="#">Images</a>
+                    <a href="#">
+                        <span class="dot"></span>
+                        <img class="header-images" 
+                        src="Images/bars.png" 
+                        alt="google-apps">
+                    </a>
+                    <a href="#">
+                        <img id="profile-pic" 
+                        class="header-images" 
+                        src="Images/current-user-avatar.png" 
+                        alt="user's profile picture">
+                    </a>  
+                </div>
+            </nav>
+        </header>
+        <form>
+            <img src="Images/google.svg" alt="google homepage logo" class="logo">
+            <div class="input-container">
+                <img src="Images/google_magnifying_glass.svg" alt="search button" id="magnifying-glass">
+                <input type="text">
+                <img src="Images/Google_mic.svg" alt="microphone input button" id="google-mic">
             </div>
-            <div class="header-nav-right">
-                <ul>
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-                <a href="#"><img class="header-images" src="Images/bars.png" alt="google-apps"></a>
-                <a href="#"><img id="profile-pic" class="header-images"  src="https://lh3.googleusercontent.com/ogw/ADea4I6yDh132iwnJxidVqUBZ1vRcud3XFc46rPGKayH=s64-c-mo" alt="user's profile picture"></a>
-                </ul>
+            <div class="button">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
             </div>
-        </nav>
-    </header>
-
-    <form>
-        <img src="Images/google.png" alt="google homepage logo" class="logo">
-        <div class="input-receiver">
-            <img src="Images/search.png" alt="search button">
-            <input type="text">
-            <img src="Images/mic.png" alt="microphone input button">
-        </div>
-        <div class="button">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
-        </div>
-    </form>
-
-    <footer>
-        <nav>
-            <div>
-                <ul>
+        </form>
+        <footer>
+            <nav>
+                <div>
                     <a href="#">Advertising</a>
                     <a href="#">Business</a>
                     <a href="#">How Search Works</a>
-                </ul>
-            </div>
-            <div>
-                <ul>
+                </div>
+                <div class="carbon-neutral">
+                    <img src="Images/leaf.png" id="leaf" alt="leaf">
+                    <span id="neutral-text">Carbon neutral since 2007</span>
+                </div>
+                <div>
                     <a href="#">Privacy</a>
                     <a href="#">Terms</a>
                     <a href="#">Settings</a>
-                </ul>
-            </div>
-        </nav>
-    </footer>
-
-</body>
+                </div>
+            </nav>
+        </footer>
+    </body>
 </html>

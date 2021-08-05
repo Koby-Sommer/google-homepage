@@ -1,103 +1,124 @@
        
-        * {
-            font-family: Roboto,arial,sans-serif;
+       * {
+            font-family: roboto, arial,sans-serif;
             margin: 0;
+            padding: 0;
             box-sizing: border-box;
-            font-size: small;
-        }
-        a {
-            margin: 3px;
-            text-decoration: none;
-            color: black;
-        }
+            font-size: 14px;
+            font-weight: lighter;
+        }     
         a:hover {
             text-decoration: underline;
         }
         #profile-pic {
             border-radius: 50%;
-            max-width: 30px;
+            max-width: 32px;
         }
         nav {
             position: relative;
             width: 100%;
             display: flex;
-            align-items: baseline;
+            align-items: center;
             justify-content: space-between;
             min-height: 100%;
+            padding: 10px;
         }
-        .header-nav-left {
-            padding-left: 0;
-            margin-right: 10px;
+        header nav div a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #222;
         }
         .header-nav-right {
-            padding-top: 8px;
-            padding-left: 0;
-            margin-right: 10px;
+            display: flex;
             align-items: center;
         }
-        ul > img {
-            align-content: center;
-        }
-        ul > a, ul > img {
-            padding: 0 5px;
-        }
-        .header-images:hover {
-            box-shadow: 0 0 10px gray;
+        .header-images:hover{
+            background: rgb(221, 221, 221);
+            box-shadow: 0 0 10px 0 rgb(155, 155, 155);
         }
         form {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 13vh;
+            margin-top: 14vh;
         }
         .logo {
-            margin: 30px;
+            margin: 18px;
+            width: 271px;
+            padding-bottom: 10px;
         }
-        .input-receiver {
+        .input-container {
             display: flex;
             justify-content: space-between;
-            width: 500px;
+            width: 580px;
             height: 45px;
-            border: 1px solid lightgray;
+            border: 1px solid rgb(226, 226, 226);
             border-radius: 25px;
             cursor: pointer;
         }
-        .input-receiver > img {
+        .input-container > img {
             align-self: center;
             width: auto;
             height: auto;
-            padding: 11px 15px;
+            padding: 20px 15px;
         }
-        .input-receiver > input {
+        .input-container > input {
             flex-grow: 1;
             border: none;
             outline: none;
         }
-        .input-receiver:hover {
-            box-shadow: 0 0 1px 0 gray;
+        .input-container:hover {
+            box-shadow: 0 0 4px 0 rgb(212, 212, 212);
         }
         img:hover {
             cursor: pointer;
         }
+        #magnifying-glass {
+            height: 60px;
+            cursor: default;
+        }
+        #google-mic {
+            height: 60px;
+            margin-right: 5px;
+        }
         .button {
-            padding-top: 45px;
+            padding-top: 25px;
         }
         button {
             background-color: rgb(247, 247, 247);
             border-radius: 3px;
             border: none;
-            height: 30px;
-            padding: 5px 10px;
-            margin: 5px 10px;
+            height: 35px;
+            padding: 0px 20px;
+            margin: 5px 3px;
             cursor: pointer;
+            color:rgb(73, 73, 73)
         }
         button:hover {
             box-shadow: 0 0 2px 0 gray;
         }
         footer {
-            background-color: rgb(235, 235, 235);
+            background-color: rgb(241, 241, 241);
+            color: #70757a;
             position: fixed;
             bottom: 0;
             width: 100vw;
-            padding: 10px;
+            padding: 5px;
+            
         }
+        footer nav div a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(114, 114, 114);
+            white-space: nowrap;
+        }
+        .carbon-neutral {
+            margin-right: 125px;
+        }
+        #neutral-text:hover {
+            text-decoration: underline;
+        }
+        #leaf {
+            height: 14px;
+        }
+ 
